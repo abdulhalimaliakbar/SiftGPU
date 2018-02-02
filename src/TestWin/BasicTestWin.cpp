@@ -39,7 +39,7 @@ using std::iostream;
 //	#include "GL/gl.h"
 //#endif
 #include "GL/gl.h"
-#include "glext.h"
+
 #include "../SiftGPU/SiftGPU.h"
 #include "BasicTestWin.h"
 
