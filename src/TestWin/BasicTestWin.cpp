@@ -33,12 +33,13 @@
 #include <iostream>
 using std::iostream;
 
-#ifdef __APPLE__
-	#include "OpenGL/OpenGL.h"
-#else
-	#include "GL/gl.h"
-#endif
-
+//#ifdef __APPLE__
+//	#include "OpenGL/OpenGL.h"
+//#else
+//	#include "GL/gl.h"
+//#endif
+#include "GL/gl.h"
+#include "glext.h"
 #include "../SiftGPU/SiftGPU.h"
 #include "BasicTestWin.h"
 
